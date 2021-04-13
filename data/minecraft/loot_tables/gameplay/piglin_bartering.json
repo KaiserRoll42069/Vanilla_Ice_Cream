@@ -287,16 +287,7 @@
         {
           "type": "minecraft:item",
           "weight": 40,
-          "name": "minecraft:nether_brick",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 2,
-                "max": 8
-              }
-            }
-          ]
+          "name": "minecraft:experience_bottle"
         },
         {
           "type": "minecraft:item",
@@ -314,7 +305,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 20,
           "name": "minecraft:warped_nylium",
           "functions": [
             {
@@ -328,7 +319,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 20,
           "name": "minecraft:crimson_nylium",
           "functions": [
             {
