@@ -44,7 +44,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 6,
           "name": "minecraft:wither_skeleton_skull"
         },
         {
@@ -59,7 +59,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 3,
           "name": "minecraft:netherite_ingot"
         },
         {
