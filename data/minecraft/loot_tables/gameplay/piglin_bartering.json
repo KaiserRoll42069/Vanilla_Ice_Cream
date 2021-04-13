@@ -6,6 +6,11 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:netherite_scrap"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 20,
           "name": "minecraft:chain",
           "functions": [
@@ -34,7 +39,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 2,
           "name": "minecraft:splash_potion",
           "functions": [
             {
@@ -45,7 +50,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 4,
           "name": "minecraft:potion",
           "functions": [
             {
@@ -56,7 +61,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 4,
           "name": "minecraft:splash_potion",
           "functions": [
             {
@@ -98,19 +103,8 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 6,
           "name": "minecraft:potion",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 8,
-          "name": "minecraft:splash_potion",
           "functions": [
             {
               "function": "minecraft:set_nbt",
