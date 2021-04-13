@@ -6,6 +6,40 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:multishot",
+                "minecraft:piercing"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "enchantments": [
+                "minecraft:quick_charge",
+                "minecraft:unbreaking",
+                "minecraft:vanishing_curse"
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:nether_wart",
           "functions": [
@@ -178,7 +212,8 @@
                 "minecraft:multishot",
                 "minecraft:fire_aspect",
                 "minecraft:fire_protection",
-                "minecraft:soul_speed"
+                "minecraft:soul_speed",
+                "minecraft:piercing"
               ]
             }
           ]
