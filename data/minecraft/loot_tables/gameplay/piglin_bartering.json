@@ -6,6 +6,39 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:crimson_fungus",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:warped_fungus",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:mushroom_stew"
+        },
+        {
+          "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:blaze_rod",
           "functions": [
